@@ -38,10 +38,15 @@ Le programme prend un ou deux arguments :
 
 - Pour vérifier le champ coinbase du bloc 100 :
 
-    ```bash
+    ```
     cargo run 100
     ``` 
 
+- Pour vérifier le champ coinbase du bloc 100 à 200 :
+
+    ```
+    cargo run 100 200
+    ``` 
 Le programme affichera les contenus des champs coinbase en texte lisible pour chaque bloc demandé.
 
 ## Erreurs possibles
@@ -50,8 +55,8 @@ Le programme affichera les contenus des champs coinbase en texte lisible pour ch
 
 ### Exemple de sortie :
 
-    ```bash
-    Vérification du bloc #100
+    ```
+    Vérification du bloc #0
     Coinbase (texte lisible du bloc #100): The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.
     ``` 
 
