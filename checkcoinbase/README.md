@@ -55,10 +55,8 @@ Le programme affichera les contenus des champs coinbase en texte lisible pour ch
 
 ### Exemple de sortie :
 
-    ```
     Vérification du bloc #0
     Coinbase (texte lisible du bloc #100): The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.
-    ``` 
 
 ## Notes
 
